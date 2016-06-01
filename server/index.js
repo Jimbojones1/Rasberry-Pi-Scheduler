@@ -18,6 +18,6 @@ var express = require('express'),
 
 // Start the server
 // ----------------
-var server = app.listen(3000, function() {
+var server = app.listen(process.env.PORT, function() {
   console.log('App is listening at http://localhost:' + server.address().port);
 });
