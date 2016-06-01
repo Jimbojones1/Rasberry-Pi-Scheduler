@@ -1,0 +1,26 @@
+{
+  "name": "pi-scheduler",
+  "version": "1.0.0",
+  "description": "A meeting scheduling app for Raspberry Pi and tiny screens.",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jimbojones1/Rasberry-Pi-Scheduler.git"
+  },
+  "author": "Jim Haff and Bill Patrianakos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jimbojones1/Rasberry-Pi-Scheduler/issues"
+  },
+  "homepage": "https://github.com/Jimbojones1/Rasberry-Pi-Scheduler#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0"
+  }
+}
